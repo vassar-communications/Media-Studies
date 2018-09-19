@@ -1,0 +1,211 @@
+
+/*	COLOR
+	===== */
+
+a {
+	border: none;
+	color: #fff;
+}
+a:hover {
+	color: #6ff;
+}
+
+.u-lContent {
+	a {
+		padding-left: .2em;
+		padding-right: .2em;
+	}
+	.u-BioList__name,
+	h2 a, h3 a, h4 a, h5 a, h6 a {
+		padding: 0;
+	}
+	a:hover {
+		color: #0ff;
+		background: #033;
+	}
+}
+
+.Module__link,
+.u-NavSite__level--1 .u-NavSite__itemContainer .u-NavSite__item {
+	display: block;
+}
+.u-NavSite__level--1 .u-NavSite__itemContainer .u-NavSite__item:hover {
+	background: -webkit-linear-gradient(transparent, transparent), linear-gradient(270deg, #ff5c00, #00ffd4, #ff00c8);
+	background-size: 600% 600%;
+	
+	-webkit-animation: AnimationName 5s ease infinite;
+	-moz-animation: AnimationName 5s ease infinite;
+	animation: AnimationName 5s ease infinite;
+	
+	@-webkit-keyframes AnimationName {
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+	}
+	@-moz-keyframes AnimationName {
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+	}
+	@keyframes AnimationName { 
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+	}
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+/*	Masthead
+	-------- */
+
+.u-Masthead__siteName--link,
+.u-Masthead__siteName--link:visited,
+.u-Masthead__vassar--link,
+.u-Masthead__vassar--link:visited {
+	color: #777;
+}
+.u-Masthead__siteName--link:hover,
+.u-Masthead__vassar--link:hover {
+	background: -webkit-linear-gradient(transparent, transparent), linear-gradient(270deg, #ff5c00, #00ffd4, #ff00c8);
+	background-size: 600% 600%;
+	
+	-webkit-animation: AnimationName 3s ease infinite;
+	-moz-animation: AnimationName 3s ease infinite;
+	animation: AnimationName 3s ease infinite;
+	
+	@-webkit-keyframes AnimationName {
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+	}
+	@-moz-keyframes AnimationName {
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+	}
+	@keyframes AnimationName { 
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+	}
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+.u-NavSite__item:visited {
+	color: #666
+}
+
+
+/*	Animation
+	--------- */
+
+	.animation_container {
+		width: 340px;
+		height: 191px;
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 1em;
+		background: url(../images/animated-masthead/Bitmap1.jpg);
+	}
+	.animation_container:before {
+		position: absolute;
+		left: -1px;
+		top: -1px;
+		bottom: -1px;
+		right: -1px;
+		content: "";
+		background-image: url(../images/animated-masthead/mask.png);
+		background-image: linear-gradient(transparent, transparent), url(../images/animated-masthead/mask.svg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		z-index: 9999;
+	}
+
+
+/*	@media \0screen {
+		.animation {
+			display: none;
+		}
+	}
+*/
+	.animation {
+		padding: 0;
+	}
+	.animation a {
+		display: block;
+	}
+	.animation img {
+		margin-top: -2em;
+		margin-left: -1em;
+	}
+
+
+
+
+/*	Search
+	------ */
+	
+.u-Search {
+	border: 1px solid #777;
+}
+
+
+html {
+	background: #000 url("http://cmspreview.vassar.edu/mediastudies/web/assets/images/footer-bg.jpg") left no-repeat;
+	background-attachment: fixed;
+	color: #aaa;
+}
+.u-lHeader {
+	background: #000 url("http://cmspreview.vassar.edu/mediastudies/web/assets/images/navstripe.jpg") left bottom no-repeat;
+}
+
+a.u-NavSite__item {
+	color: #666;
+}
+a.u-NavSite__item:hover {
+	color: #888;
+}
+
+
+
+/*	Sidebar modules
+	--------------- */
+
+.Module--sidebar .Module__listItem {
+	border-color: #333;
+}
+
+
+
+/*	Nav
+	--- */
+
+.u-NavSite__level--2,
+.u-NavSite__level--2 .u-NavSite__level {
+	border-color: #333;
+}
+.u-NavSite__item--isOpen .u-NavSite__item {
+	color: #aaa;
+}
+.u-NavSite__item.u-NavSite__item--isCurrent {
+    color: #fff;
+}
+
+
+/*	News
+	---- */
+
+a.u-ArticleListItem__link:hover {
+	background: none;
+}
+
+body {
+	background-color: transparent;
+}
+
