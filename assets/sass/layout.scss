@@ -11,6 +11,11 @@ body {
 .u-lHeader {
 	margin-bottom: 2em;
 }
+	.gf- .u-Masthead__siteName
+    {
+		margin-top: 0;
+	}
+
 @media all and (min-width: $medium) {
 	.u-Search {
 		margin-top: 1.4em;
@@ -18,11 +23,26 @@ body {
 	.u-Masthead__siteName {
 		margin-top: 4em;
 	}
+    
+	.gf- .u-Masthead__siteName
+    {
+		margin-top: 0;
+	}
+
+    .gf- .u-lContent
+    {
+        padding-right: 5%;
+    }
 }
 @media all and (min-width: $large) {
 	.u-Masthead__siteName {
 		margin-top: 0;
 	}
+    
+    .gf- .PageContent
+    {
+        margin-left: 0;
+    }
 }
 
 
